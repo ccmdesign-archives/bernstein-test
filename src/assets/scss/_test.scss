@@ -1,14 +1,106 @@
+// Body Styles 
+body,
+html, 
+.body,
+.main {
+  background: #f5f5f5 !important;
+}
 
-
-.header {
+.main,
+.main .container {
   background: transparent;
 }
 
 .main-logo {
-  text-align: center;
-  
   &__content {
-    margin: 0 auto;
     max-width: 100px;
   } 
+}
+
+.cmo-date {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.centered-content { margin: 0 auto; }
+.align-center { text-align: center; }
+
+.content {
+  background: white !important;
+  box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
+
+  .padding {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+
+  p {
+    color: #999;
+    font-weight: 200;
+    line-height: 1.65;
+  }
+
+  .lead {
+    line-height: 1.5;
+  }
+}
+
+.divider {
+  margin: 0 auto;
+  max-width: 100px;
+  opacity: .4;
+}
+
+
+.highlight {
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.15);  
+  
+  &__content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    h3, p, small {
+      color: white;
+      margin-bottom: 4px;
+      margin-left: 60px;
+      margin-right: 60px;
+    }  
+  }
+}
+
+.podcast {
+  background: #B44A96;
+
+  &__play { background: rgba(0,0,0,0.07); }
+
+  &__title {
+    
+
+    h3, p, small {
+      margin-left: 30px;
+      margin-bottom: 4px;
+    }  
+
+    h3 { font-size: 18px; }
+    p { font-size: 14px; }
+    small { }
+  }
+}
+
+.appstore {
+  background: #219BD7;
+}
+
+.feedback {
+  background: #50BEAF;
+}
+
+
+.footer {
+  &__content {
+    opacity: .1;
+    max-width: 160px;
+    margin: 0 auto;
+  }
 }
