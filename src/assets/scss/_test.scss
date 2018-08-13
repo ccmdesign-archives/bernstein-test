@@ -42,7 +42,9 @@ html,
   }
 
   .lead {
+    font-size: 1.4rem;
     line-height: 1.5;
+    color: #B44A96;
   }
 }
 
@@ -72,7 +74,13 @@ html,
 .podcast {
   background: #B44A96;
 
-  &__play { background: rgba(0,0,0,0.07); }
+  &__play { 
+    background: rgba(0,0,0,0.07); 
+
+    img {
+      margin-top: 10px;
+    }
+  }
 
   &__title {
     
@@ -86,6 +94,10 @@ html,
     p { font-size: 14px; }
     small { }
   }
+}
+
+.podcast-platforms {
+  > img { vertical-align: bottom; }
 }
 
 .appstore {
