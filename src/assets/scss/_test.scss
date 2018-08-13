@@ -1,0 +1,14 @@
+
+
+.header {
+  background: transparent;
+}
+
+.main-logo {
+  text-align: center;
+  
+  &__content {
+    margin: 0 auto;
+    max-width: 100px;
+  } 
+}
